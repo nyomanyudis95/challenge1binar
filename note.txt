@@ -1,0 +1,8 @@
+Main menu : 
+- Logo 
+- Home 
+- Work
+- Contact
+- About me 
+- Sign up 
+- Login 

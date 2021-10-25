@@ -1,0 +1,105 @@
+/* @media (max-width: 991.98px) {
+  .navbar-toggler {
+    display: none;
+  }
+} */
+
+/* 
+===================================
+Bootstrap Modify
+===================================
+*/
+
+.container {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.row {
+  margin-top: 20px;
+}
+
+/* 
+===================================
+Navigation 
+===================================
+*/
+
+.nav-bg-color {
+  background-color: #69d2e7;
+}
+
+.ulNavbar {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.ulNavbar .liNavbar {
+  float: left;
+}
+
+.liNavbar a {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  color: black;
+}
+
+/* 
+===================================
+Getting Started Screen 
+===================================
+*/
+
+.getstarted-screen {
+  background-image: linear-gradient(
+      0deg,
+      rgba(45, 46, 46, 0.863),
+      rgba(5, 5, 5, 0.856)
+    ),
+    url("assets/img/background-getStarted.jpg");
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.getstarted-screen .header {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btnGetStarted {
+  border: 2px solid;
+  background: none;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border-color: #fa6900;
+  color: white;
+}
+
+.btnGetStarted:hover {
+  background: #fa6900;
+  color: black;
+}
+
+/* 
+===================================
+Testimoni Screen 
+===================================
+*/
+
+.testimoni-screen {
+  text-align: center;
+  background-color: #e0e4cc;
+}
+
+.title {
+  margin-top: 30px;
+}
